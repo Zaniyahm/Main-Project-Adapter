@@ -1,0 +1,7 @@
+# No external dependencies — this adapter is built entirely on the
+# Python standard library (asyncio, struct, hashlib) so it stays
+# lightweight enough for resource-constrained deployment.
+#
+# pymysql is only needed to run test_client.py during development/testing,
+# not to run the adapter itself:
+#   pip install pymysql

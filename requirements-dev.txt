@@ -1,0 +1,7 @@
+# Dev/test-only — NOT needed to run the adapter itself.
+# Used only by the scripts in tests/ to act as real client libraries
+# when verifying the adapter (mysql_adapter/postgres_adapter never
+# import either of these).
+
+pymysql          # tests/run_demo_commands.py
+psycopg2-binary  # tests/test_pg_client.py

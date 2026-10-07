@@ -1,0 +1,14 @@
+[
+  {
+    "name": "mysql",
+    "module": "mysql_adapter.server",
+    "class": "MySQLAdapter",
+    "port": 3306
+  },
+  {
+    "name": "postgresql",
+    "module": "postgres_adapter.pg_server",
+    "class": "PostgreSQLAdapter",
+    "port": 5432
+  }
+]
